@@ -1,0 +1,261 @@
+/*style reset start */
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,input{
+	margin:0;
+	padding: 0;
+	font:12px simsun;
+}
+img{
+	border: 0 none;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+input{
+	border: 0 none;
+	outline-style: none;
+}
+/* style reset end */
+
+/* public style start */
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear:both;
+}
+.clearfix{
+	zoom: 1;
+}
+
+/* public style end */
+
+/* top start */
+.topbar {
+	width: 980px;
+	height: 60px;
+	margin: 0 auto;
+}
+.topbar-logo { 
+	width: 182px;
+	height: 60px;
+	float: left;
+	background: url("../images/logo.jpg") no-repeat center center;
+}
+.topbar-search {
+	float: right;
+	height: 30px;
+	width: 195px;
+	margin-top: 20px;
+	border: 1px solid #e4e4e4;
+}
+
+.topbar-search input[type="text"] {
+	height: 30px;
+	width: 165px;
+	vertical-align: top;
+}
+
+.topbar-search input[type="button"] {
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+	background: url("../images/search2.jpg") no-repeat;
+}
+/* top end */
+
+/* navbar start */
+.navbar {
+	height: 55px;
+	border: 1px solid #BBBBBB;
+	background: url('../images/nav_bg.png') repeat-x;
+}
+
+.navbar ul {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.navbar a {
+	display: inline-block;
+	float: left;
+	height: 55px;
+	color: #000;
+	font: 700 14px/55px "microsoft yahei";
+	padding: 0px 32px;
+	background: url('../images/nav_bg-line.png') no-repeat right,0px;
+}
+
+.navbar a:hover {
+	color:#7cb609;
+}
+/* navbar end */
+
+/* banner start */
+.banner {
+	width: 980px;
+	margin: 0 auto;
+} 
+/* banner  end */
+
+/* news start */
+.news {
+	border-top: 2px solid #EFEFEF;
+	border-bottom: 2px solid #EFEFEF;
+	background-color: #FBFBFB;
+}
+.news-content {
+	height: 32px;
+	width: 980px;
+	margin: 0 auto;
+}
+.news .title {
+	line-height: 32px;
+	font-size: 12px;
+	float: left;
+}
+.news .share {
+	float: right;
+	margin-top: 9px;
+}
+/* news end */
+
+/* msg start */
+.msg {
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 19px;
+	margin-bottom: 19px;
+}
+
+.msg-left,.msg-center,.msg-right {
+	position: relative;
+	border: 1px solid #e4e4e4;
+	height: 222px;
+}
+
+.msg-title {
+	position: relative;
+	height: 43px;
+}
+.msg-title img {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.msg-title span {
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	font-weight: 700;
+	font-size: 12px;
+	color: #7AB800;
+}
+
+.msg-left {
+	float: left;
+	width: 306px;
+	margin-right: 14px; 
+}
+
+.msg-left .phone {
+	margin-left: 54px;
+	margin-top: 21px;
+}
+
+.msg-left .shaw-left {
+	position: absolute;
+	left: 18px;
+	bottom: 88px;
+}
+
+.msg-left .shaw-right {
+	position: absolute;
+	right: 18px;
+	bottom: 88px;
+}
+
+.msg-center {
+	float: left;
+	width: 373px;
+}
+
+.msg-center ul li {
+	margin: 0px 17px;
+	border-bottom: 1px dashed #DCDCDC;
+}
+.msg-center ul li a {
+	display: inline-block;
+	height: 28px;
+	color: #000;
+	font: 400 14px/28px "microsoft yahei";
+}
+
+.msg-center ul li a.sorry {
+	font-weight: 700;
+	color: red;
+}
+
+.msg-right {
+	float: right;
+	width: 266px;
+}
+
+.msg-right ul {
+	margin-left: 27px;
+	padding-bottom: 35px;
+}
+
+.msg-right ul li a {
+	height: 21px;
+	line-height: 21px;
+	color: #000;
+	padding-left: 5px;
+	border-left: 3px solid #7AB800;
+}
+
+.msg-right p {
+	padding-left: 27px;
+	font-size: 14px;
+	padding-bottom: 6px;
+
+}
+/* msg end */
+
+/* footer start */
+.footer,.more-link,.company{
+	background-color: #2D2D2D;
+}
+
+.more-link {
+	height: 285px;
+	width: 980px;
+	margin: 0 auto;
+}
+.more-link dl {
+	float: left;
+	margin-top: 20px;
+	margin-right: 41px;
+	color: #fff;
+}
+.more-link dl dd {
+	margin-top: 20px;
+	color: #7AB800;
+}
+.company {
+	border-top: 1px dotted #ececec;
+	height: 80px;
+	padding-top: 26px;
+	text-align: center;
+}
+/* footer end */
